@@ -168,6 +168,6 @@ while cv.waitKey(1)<0:
     cv.imshow('JabTracker', frame)
 ```
 
-# 4. Do some magic to detect boxing jabs that yet need to be figured out
+# 4. Do some magic to detect boxing jabs that yet needs to be figured out
 
 Got stuck here
