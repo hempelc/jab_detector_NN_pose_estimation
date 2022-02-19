@@ -1,11 +1,17 @@
 # _Pose estimation on videos using a Neural Network and OpenCV to detect boxing jabs_
 
+
+
 This notebook estimates poses of people in videos by detecting joints using a Neural Network and connecting the joints. The joints and their connections are then used to predict if the person is doing a boxing jab. 
 
 Therefore, we load a pre-trained Neural Network and apply it to a video or live through a webcam.
-Then, we do some magic that isn't figured out yet and our program will tell us whenever it detects a boxing jab.
+
+The goal of this project is that our program tells us if it detects a boxing jab.
 
 The Neural Network and code to run the pose estimation is taken from https://github.com/quanhua92/human-pose-estimation-opencv
+
+Note: *this project is not finished*! The video detection of joints and limbs worked poorly - for successful jab detection, the NN might need to be updated. We stopped at that point.
+
 
 # 1. Prerequisites
 
